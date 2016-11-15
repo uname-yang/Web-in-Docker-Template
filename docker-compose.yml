@@ -10,16 +10,22 @@ weba:
     build: src
     ports:
       - 5000
+    links:
+      - redis
 
 webb:
     build: src
     ports:
       - 5000
+    links:
+      - redis
 
 webc:
     build: src
     ports:
       - 5000
+    links:
+      - redis
 
 haproxy:
   image: haproxy:1.5
