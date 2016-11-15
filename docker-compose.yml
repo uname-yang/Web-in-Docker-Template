@@ -1,10 +1,7 @@
 
 redis:
   image: redis:latest
-  links:
-    - weba
-    - webb
-    - webc
+
 
 weba:
     build: src
