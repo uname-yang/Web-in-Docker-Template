@@ -1,0 +1,6 @@
+build:
+  image: python
+  commands:
+    - pip install -r src/requirements.txt
+    - cd src
+    - python test.py
