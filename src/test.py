@@ -3,7 +3,7 @@ import sys
 
 def test():
     print "++++++++++++++++++++++++++++test+++++++++++++++++++++++++++++++++++"
-    tests = unittest.TestLoader().discover('./tests', pattern='*_tests.py')
+    tests = unittest.TestLoader().discover('tests', pattern='*_tests.py')
     result = unittest.TextTestRunner(verbosity=2).run(tests)
     if result.wasSuccessful():
         return 0
