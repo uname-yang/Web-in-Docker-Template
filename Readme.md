@@ -4,3 +4,19 @@ Web Service in Docker Template
 ==========================
 
 A Template for Web Serive in Docker.
+
+
+## Requirements
+
+- docker
+- docker-compose
+
+## Usege
+```sh
+docker-compose up
+```
+
+```sh
+# open web
+open http://localhot
+```
